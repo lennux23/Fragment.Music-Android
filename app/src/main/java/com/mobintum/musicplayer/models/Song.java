@@ -1,14 +1,17 @@
-package com.mobintum.musicplayer;
+package com.mobintum.musicplayer.models;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 
+import com.mobintum.musicplayer.R;
+
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Created by Rick on 13/04/15.
  */
-public class Song {
+public class Song  {
 
     private String title;
     private String artist;
